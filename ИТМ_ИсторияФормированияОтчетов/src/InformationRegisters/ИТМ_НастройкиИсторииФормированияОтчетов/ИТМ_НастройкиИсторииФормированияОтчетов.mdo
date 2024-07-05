@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89c9efd-6f15-410c-bfbd-a35d19f1d296">
+  <producedTypes>
+    <selectionType typeId="f5834ff2-4c99-4a85-b5f6-f061461f2f7f" valueTypeId="dd4bef8f-cde3-43b2-8878-11dcbbd65bd7"/>
+    <listType typeId="d2c66f23-e66a-46bc-bb43-832428b08c42" valueTypeId="10364e4f-de2e-4c0c-8d63-c5604856a684"/>
+    <managerType typeId="ab75b340-02ba-4c19-a213-cf1adcb09177" valueTypeId="7df37245-d208-4664-9ddc-a0cbe6f5b60f"/>
+    <recordSetType typeId="61ff0b1c-44a4-436a-8411-f2cef072ab8b" valueTypeId="418c22e0-7600-4b91-a70b-dcad93e23f61"/>
+    <recordKeyType typeId="ad2e74db-28d4-427c-9bc7-06d121c227c9" valueTypeId="32127d2f-a30c-4d8d-a2ac-37e04d583034"/>
+    <recordType typeId="dc42e526-f871-4d5c-85c5-7d04b9f88079" valueTypeId="9969ef4e-27d1-460c-b38f-8f2d1c1b0a0e"/>
+    <recordManagerType typeId="775435f8-d2f1-4c76-bf50-8a6451ed2c40" valueTypeId="1f3dd805-0801-411c-a396-8fd1d2bc773f"/>
+  </producedTypes>
+  <name>ИТМ_НастройкиИсторииФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки истории формирования отчетов (ИТМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИТМ_НастройкиИсторииФормированияОтчетов.Form.ФормаНастроек</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка истории формирования отчета (ИТМ)</value>
+  </recordPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Выполнение настроек подсистемы для формирования отчетов</value>
+  </explanation>
+  <resources uuid="77cf161a-e526-475c-9d4a-7fea36cebcc9">
+    <name>ФиксироватьИсторию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксировать историю</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7731a69b-3211-485c-908c-fbecd442bdc4">
+    <name>ИспользоватьОтборы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отборы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="35ac3d8a-123a-4d2d-84ed-08b3b2bd8966">
+    <name>ДополнительныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="888204e1-20d0-4602-bfae-f8315025710c">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="e95b3945-3cb8-413f-875f-9908ac9d2b64">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e88df141-f0ea-4d81-a382-075938a96035">
+    <name>ФормаВыбораОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="989f89a7-7d75-44e4-bee1-9c9b0cdeacfd">
+    <name>ОтборыНеобходимостиЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы необходимости записи</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:InformationRegister>

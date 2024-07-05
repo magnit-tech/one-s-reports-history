@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5caf8d85-e98f-4b5f-b6fc-808fffd2818d">
+  <producedTypes>
+    <objectType typeId="6ce3973b-828c-4bb1-8ec0-ebdf0df1bbbe" valueTypeId="13f531c4-367f-471b-8a21-d54e264a3135"/>
+    <managerType typeId="d020465c-487c-40ee-ba4f-9665e0898df0" valueTypeId="6553b031-9f66-47a2-ba2a-81ad0c044bea"/>
+  </producedTypes>
+  <name>ИТМ_АнализИсторииФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ истории формирования отчетов (ИТМ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИТМ_АнализИсторииФормированияОтчетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Формирование отчета по накопленным данным подсистемы</value>
+  </explanation>
+  <attributes uuid="972ac48d-c321-4010-9c69-2d39a2212387">
+    <name>РасширеннаяНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенная настройка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="77cbd542-0174-45bb-93d9-d6b78429bc23">
+    <producedTypes>
+      <objectType typeId="2e2e8d2f-9971-4599-9670-053d0fa1760e" valueTypeId="2fc3bef3-2190-4b6b-bbb3-d1d33a8ed30b"/>
+      <rowType typeId="a0131645-e3a6-4062-a05f-02b8aeb864f4" valueTypeId="b6779cb1-3dd8-4814-9bfb-4a2832b79795"/>
+    </producedTypes>
+    <name>Сообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0f145780-dde8-42bb-a747-19d99f976e55">
+      <name>Начало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="744f9d30-fd25-44d0-ba18-52092edaa6ea">
+      <name>Окончание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Окончание</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="25a6e59c-f260-40df-94e8-c1e0665aa62c">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e67dd350-da46-4439-a374-767e76584560">
+      <name>ЭтоИсключение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это исключение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a9aaa2bc-a68c-45bf-b0e7-fd1b04d820ab">
+      <name>ВидСообщения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид сообщения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <templates uuid="7d2aa6c3-5de7-4a03-9406-30063d0eea13">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

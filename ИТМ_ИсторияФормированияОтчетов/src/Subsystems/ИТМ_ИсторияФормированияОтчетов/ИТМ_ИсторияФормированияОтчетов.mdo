@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78982c9f-0230-4930-8432-1dbc8256ac7f">
+  <name>ИТМ_ИсторияФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История формирования отчетов (ИТМ)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема предоставляет возможность сохранения информации о выполнении отчетов пользователями: длительность, используемые настройки, описание ошибки и т.д., что позволяет применять сохраненные настройки отчета, анализировать возникающие ошибки и выявлять настройки, приводящие к долгому выполнению отчетов</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.History</picture>
+  </picture>
+  <content>CommonModule.ИТМ_ИсторияФормированияОтчетов</content>
+  <content>CommonModule.ИТМ_ИсторияФормированияОтчетовПереопределяемый</content>
+  <content>CommonModule.ИТМ_ИсторияФормированияОтчетовВызовСервера</content>
+  <content>InformationRegister.ИТМ_ИсторияФормированияОтчетов</content>
+  <content>InformationRegister.ИТМ_НастройкиИсторииФормированияОтчетов</content>
+  <content>Role.ИТМ_ПросмотрСвоейИсторииФормированияОтчетов</content>
+  <content>Role.ИТМ_ПросмотрВсейИсторииФормированияОтчетов</content>
+  <content>Role.ИТМ_АдминистраторИсторииФормированияОтчетов</content>
+  <content>CommonModule.ИТМ_ИсторияФормированияОтчетовКлиент</content>
+  <content>CommonModule.ИТМ_ИсторияФормированияОтчетовКлиентСервер</content>
+  <content>Report.ИТМ_АнализИсторииФормированияОтчетов</content>
+  <content>Role.ИТМ_АнализИсторииФормированияОтчетов</content>
+  <content>DataProcessor.ИТМ_ПанельПодсистемы_ИсторияФормированияОтчетов</content>
+</mdclass:Subsystem>

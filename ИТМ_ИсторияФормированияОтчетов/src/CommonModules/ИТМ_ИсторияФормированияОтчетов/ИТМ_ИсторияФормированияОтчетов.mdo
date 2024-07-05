@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce158ba9-3504-47a0-b18a-4d077148d230">
+  <name>ИТМ_ИсторияФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИТМ история формирования отчетов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

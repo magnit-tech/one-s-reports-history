@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad67b69b-e2bb-455f-8a7e-1ac0ab9c0a00">
+  <name>ИТМ_ПросмотрВсейИсторииФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр всей истории формирования отчетов (ИТМ)</value>
+  </synonym>
+</mdclass:Role>

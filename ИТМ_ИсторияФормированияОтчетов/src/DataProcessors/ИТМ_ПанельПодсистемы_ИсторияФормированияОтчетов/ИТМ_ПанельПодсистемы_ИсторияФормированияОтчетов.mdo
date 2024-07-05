@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10f12ac5-dd8a-4239-a2f3-49a1db13df7b">
+  <producedTypes>
+    <objectType typeId="b1275da0-adaa-407f-9da1-9005d90a96d7" valueTypeId="d89428ad-0fe7-4aa4-aecd-0ef8ae36c3d1"/>
+    <managerType typeId="253976cf-7eeb-4a32-820e-212e69a4b596" valueTypeId="6b4e476a-9dee-40c1-9fc7-57a3f6926b18"/>
+  </producedTypes>
+  <name>ИТМ_ПанельПодсистемы_ИсторияФормированияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель подсистемы: История формирования отчетов (ИТМ)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИТМ_ПанельПодсистемы_ИсторияФормированияОтчетов.Form.Форма</defaultForm>
+  <forms uuid="b6feafff-686e-48aa-922a-a718f5665716">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="56a2b008-f40c-4f4f-a166-8c305ef30265">
+    <name>ПанельПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель подсистемы: История формирования отчетов (ИТМ)</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
